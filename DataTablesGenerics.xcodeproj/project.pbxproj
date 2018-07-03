@@ -8,13 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		1FB886BC20E8EB3200AEAB75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB886BB20E8EB3200AEAB75 /* AppDelegate.swift */; };
-		1FB886BE20E8EB3200AEAB75 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB886BD20E8EB3200AEAB75 /* ViewController.swift */; };
+		1FB886BE20E8EB3200AEAB75 /* BaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB886BD20E8EB3200AEAB75 /* BaseTableViewController.swift */; };
 		1FB886C120E8EB3200AEAB75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FB886BF20E8EB3200AEAB75 /* Main.storyboard */; };
 		1FB886C420E8EB3200AEAB75 /* DataTablesGenerics.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1FB886C220E8EB3200AEAB75 /* DataTablesGenerics.xcdatamodeld */; };
 		1FB886C620E8EB3300AEAB75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FB886C520E8EB3300AEAB75 /* Assets.xcassets */; };
 		1FB886C920E8EB3300AEAB75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FB886C720E8EB3300AEAB75 /* LaunchScreen.storyboard */; };
 		1FB886D420E8EB3300AEAB75 /* DataTablesGenericsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB886D320E8EB3300AEAB75 /* DataTablesGenericsTests.swift */; };
 		1FB886DF20E8EB3300AEAB75 /* DataTablesGenericsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB886DE20E8EB3300AEAB75 /* DataTablesGenericsUITests.swift */; };
+		1FB886ED20E8EEA800AEAB75 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB886EC20E8EEA800AEAB75 /* MainTabBarController.swift */; };
+		1FB886F020E8F35000AEAB75 /* Dog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB886EF20E8F35000AEAB75 /* Dog.swift */; };
+		1FB886F220E8F3B200AEAB75 /* Cat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB886F120E8F3B200AEAB75 /* Cat.swift */; };
+		1FB886F420E8F40A00AEAB75 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB886F320E8F40A00AEAB75 /* Person.swift */; };
+		1FB886F720E8F96E00AEAB75 /* PersonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB886F620E8F96E00AEAB75 /* PersonCell.swift */; };
+		1FB886F920E8FAD900AEAB75 /* DogCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB886F820E8FAD900AEAB75 /* DogCell.swift */; };
+		1FB886FC20E8FCCA00AEAB75 /* PersonController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB886FB20E8FCCA00AEAB75 /* PersonController.swift */; };
+		1FB886FE20E8FF1800AEAB75 /* DogController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB886FD20E8FF1800AEAB75 /* DogController.swift */; };
+		1FB8870020E8FFDB00AEAB75 /* BaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB886FF20E8FFDB00AEAB75 /* BaseCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +46,7 @@
 /* Begin PBXFileReference section */
 		1FB886B820E8EB3200AEAB75 /* DataTablesGenerics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DataTablesGenerics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FB886BB20E8EB3200AEAB75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1FB886BD20E8EB3200AEAB75 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1FB886BD20E8EB3200AEAB75 /* BaseTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTableViewController.swift; sourceTree = "<group>"; };
 		1FB886C020E8EB3200AEAB75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1FB886C320E8EB3200AEAB75 /* DataTablesGenerics.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataTablesGenerics.xcdatamodel; sourceTree = "<group>"; };
 		1FB886C520E8EB3300AEAB75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +58,15 @@
 		1FB886DA20E8EB3300AEAB75 /* DataTablesGenericsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DataTablesGenericsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FB886DE20E8EB3300AEAB75 /* DataTablesGenericsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTablesGenericsUITests.swift; sourceTree = "<group>"; };
 		1FB886E020E8EB3300AEAB75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FB886EC20E8EEA800AEAB75 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		1FB886EF20E8F35000AEAB75 /* Dog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dog.swift; sourceTree = "<group>"; };
+		1FB886F120E8F3B200AEAB75 /* Cat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cat.swift; sourceTree = "<group>"; };
+		1FB886F320E8F40A00AEAB75 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		1FB886F620E8F96E00AEAB75 /* PersonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonCell.swift; sourceTree = "<group>"; };
+		1FB886F820E8FAD900AEAB75 /* DogCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogCell.swift; sourceTree = "<group>"; };
+		1FB886FB20E8FCCA00AEAB75 /* PersonController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonController.swift; sourceTree = "<group>"; };
+		1FB886FD20E8FF1800AEAB75 /* DogController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogController.swift; sourceTree = "<group>"; };
+		1FB886FF20E8FFDB00AEAB75 /* BaseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +117,17 @@
 		1FB886BA20E8EB3200AEAB75 /* DataTablesGenerics */ = {
 			isa = PBXGroup;
 			children = (
+				1FB886FA20E8FCBA00AEAB75 /* Controllers */,
+				1FB886F520E8F95700AEAB75 /* Views */,
+				1FB886EE20E8F33200AEAB75 /* Models */,
 				1FB886BB20E8EB3200AEAB75 /* AppDelegate.swift */,
-				1FB886BD20E8EB3200AEAB75 /* ViewController.swift */,
+				1FB886BD20E8EB3200AEAB75 /* BaseTableViewController.swift */,
 				1FB886BF20E8EB3200AEAB75 /* Main.storyboard */,
 				1FB886C520E8EB3300AEAB75 /* Assets.xcassets */,
 				1FB886C720E8EB3300AEAB75 /* LaunchScreen.storyboard */,
 				1FB886CA20E8EB3300AEAB75 /* Info.plist */,
 				1FB886C220E8EB3200AEAB75 /* DataTablesGenerics.xcdatamodeld */,
+				1FB886EC20E8EEA800AEAB75 /* MainTabBarController.swift */,
 			);
 			path = DataTablesGenerics;
 			sourceTree = "<group>";
@@ -126,6 +148,35 @@
 				1FB886E020E8EB3300AEAB75 /* Info.plist */,
 			);
 			path = DataTablesGenericsUITests;
+			sourceTree = "<group>";
+		};
+		1FB886EE20E8F33200AEAB75 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1FB886EF20E8F35000AEAB75 /* Dog.swift */,
+				1FB886F120E8F3B200AEAB75 /* Cat.swift */,
+				1FB886F320E8F40A00AEAB75 /* Person.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1FB886F520E8F95700AEAB75 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1FB886F620E8F96E00AEAB75 /* PersonCell.swift */,
+				1FB886F820E8FAD900AEAB75 /* DogCell.swift */,
+				1FB886FF20E8FFDB00AEAB75 /* BaseCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1FB886FA20E8FCBA00AEAB75 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1FB886FB20E8FCCA00AEAB75 /* PersonController.swift */,
+				1FB886FD20E8FF1800AEAB75 /* DogController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,7 +311,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				1FB886C420E8EB3200AEAB75 /* DataTablesGenerics.xcdatamodeld in Sources */,
-				1FB886BE20E8EB3200AEAB75 /* ViewController.swift in Sources */,
+				1FB886BE20E8EB3200AEAB75 /* BaseTableViewController.swift in Sources */,
+				1FB886F720E8F96E00AEAB75 /* PersonCell.swift in Sources */,
+				1FB886F220E8F3B200AEAB75 /* Cat.swift in Sources */,
+				1FB8870020E8FFDB00AEAB75 /* BaseCell.swift in Sources */,
+				1FB886ED20E8EEA800AEAB75 /* MainTabBarController.swift in Sources */,
+				1FB886F420E8F40A00AEAB75 /* Person.swift in Sources */,
+				1FB886F020E8F35000AEAB75 /* Dog.swift in Sources */,
+				1FB886FE20E8FF1800AEAB75 /* DogController.swift in Sources */,
+				1FB886F920E8FAD900AEAB75 /* DogCell.swift in Sources */,
+				1FB886FC20E8FCCA00AEAB75 /* PersonController.swift in Sources */,
 				1FB886BC20E8EB3200AEAB75 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
